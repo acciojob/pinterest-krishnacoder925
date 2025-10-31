@@ -1,1 +1,57 @@
-/*  your css code here. If applicable */
+/* General Page Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Hero Section Container */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+  gap: 50px;
+  padding: 20px;
+}
+
+/* Image Styling */
+.hero img {
+  width: 50%;
+  height: 80vh;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Text Section */
+.hero-text {
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Heading */
+.hero-text h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+/* Paragraph */
+.hero-text p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.btn {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: darkred;
+}
